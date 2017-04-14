@@ -1,0 +1,31 @@
+{
+  "name": "typeof-object",
+  "version": "0.0.0",
+  "description": "All values in JavaScript are objects. `typeofObject` gets a value's object type, including custom types.",
+  "main": "index.js",
+  "keywords": [
+    "object",
+    "type",
+    "typeof",
+    "instance",
+    "instanceof",
+    "helper",
+    "custom",
+    "toString",
+    "string",
+    "class",
+    "browser"
+  ],
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m59peacemaker/js-typeof-object"
+  },
+  "author": "Johnny Hauser <johnnyhauser@gmail.com>",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
