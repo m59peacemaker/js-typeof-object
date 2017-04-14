@@ -15,6 +15,8 @@ test('typeofObject', function (t) {
   t.equal(typeofObject(undefined), 'Undefined')
   t.equal(typeofObject({ toString: function () { return '[object Foo]' } }), 'Foo')
   t.equal(typeofObject(X), 'X')
+  t.equal(typeofObject('[object Object]'), 'String')
+  t.equal(typeofObject('[object Number]'), 'String')
 
   t.end()
 })
