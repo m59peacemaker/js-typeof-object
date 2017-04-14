@@ -1,6 +1,6 @@
 {
   "name": "typeof-object",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "All values in JavaScript are objects. `typeofObject` gets a value's object type, including custom types.",
   "main": "index.js",
   "keywords": [
